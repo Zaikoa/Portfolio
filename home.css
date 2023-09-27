@@ -1,52 +1,44 @@
-/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Apply Gruvbox color scheme */
 body {
-    background-color: #282828; /* Background color */
-    color: #ebdbb2; /* Text color */
+    background-color: #282828; 
+    color: #ebdbb2; 
     font-family: Arial, sans-serif;
 }
 
-/* Create a container for the resume */
 .resume {
-    background-color: #3c3836; /* Container background color */
+    background-color: #3c3836; 
     padding: 20px;
     margin: 20px;
-    border: 2px solid #504945; /* Border color */
+    border: 2px solid #504945; 
 }
 
-/* Style the headings */
 h1, h2, h3 {
-    color: #d3869b; /* Heading color */
+    color: #d3869b; 
 }
 
-/* Style the paragraphs with a box */
 p {
     margin-bottom: 10px;
-    padding: 10px; /* Add padding for the box effect */
-    border: 1px solid #504945; /* Border color for the paragraphs */
-    background-color: #32302f; /* Background color for the paragraphs */
+    padding: 10px; 
+    border: 1px solid #504945; 
+    background-color: #32302f; 
 }
 
-/* Style the experience headings */
 .experience-heading {
-    color: #83a598; /* Experience heading color */
+    color: #83a598; 
     margin-top: 15px;
 }
 
-/* Style the skills and hobbies lists */
 .resume-content ul {
     list-style-type: square;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-/* Style the goals paragraph */
 .resume-content h3:last-child {
     margin-top: 20px;
 }
